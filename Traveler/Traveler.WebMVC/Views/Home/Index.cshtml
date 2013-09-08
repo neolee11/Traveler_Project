@@ -1,0 +1,12 @@
+﻿@model Traveler.WebMVC.Models.TestModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@Model.User.FirstName @Model.User.LastName
+<br />
+Born in: @Model.User.Birthday.ToShortDateString()
+
